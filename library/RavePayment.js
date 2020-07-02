@@ -3,7 +3,11 @@ import encryption from './encryption';
 import Axios from 'axios';
 
 export default class RavePayment {
+<<<<<<< HEAD
   constructor({ publicKey, encryptionKey, currency = "NGN", country = "NG", txRef = "txref-" + Date.now(), amount, email, firstname, lastname, meta, threeDsOverride, subaccounts, redirectUrl, paymentPlan }) {
+=======
+  constructor({ publicKey, encryptionKey, currency = "NGN", country = "NG", txRef, amount, email, firstname, lastname, meta, threeDsOverride, subaccounts, redirectUrl, paymentPlan }) {
+>>>>>>> 8b65eff417f36d8d361c42a5d01f53854d547804
     var baseUrlMap = "https://api.ravepay.co/"
     this.baseUrl = baseUrlMap;
 

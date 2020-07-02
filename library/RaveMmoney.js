@@ -134,7 +134,10 @@ export default class RaveMmoney {
                        }
                      })
                        .then(function(response) {
+<<<<<<< HEAD
                          console.log(response)
+=======
+>>>>>>> 8b65eff417f36d8d361c42a5d01f53854d547804
                          resolve(response.data);
                        })
                        .catch(function(error) {
